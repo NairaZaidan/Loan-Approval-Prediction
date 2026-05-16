@@ -1,0 +1,6 @@
+,CV Accuracy,CV Std,Val Accuracy,Val ROC-AUC
+Random Forest,0.78,0.0475,0.8374,0.8455
+SVM,0.7942,0.0422,0.8537,0.8449
+Logistic Regression,0.7983,0.0457,0.8537,0.8393
+Gradient Boosting,0.7719,0.0397,0.7886,0.8028
+Decision Tree,0.7881,0.0474,0.8455,0.7625
