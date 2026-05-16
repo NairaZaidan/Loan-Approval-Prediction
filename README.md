@@ -15,13 +15,12 @@ loan_project/
 ├── loan_predictions.csv         # Final predictions on test set
 ├── model_results.csv            # CV & validation scores for all models
 └── plots/
-    ├── 01_target_distribution.png
-    ├── 02_categoricals_vs_target.png
-    ├── 03_numeric_distributions.png
-    ├── 04_correlation_heatmap.png
-    ├── 05_model_comparison.png
-    ├── 06_confusion_roc.png
-    └── 07_feature_importance.png
+    ├── 01_categoricals_vs_target.png
+    ├── 02_numeric_distributions.png
+    ├── 03_correlation_heatmap.png
+    ├── 04_model_comparison.png
+    ├── 05_confusion_roc.png
+    └── 06_feature_importance.png
 ```
 
 ---
@@ -115,13 +114,12 @@ X_test_p  = preprocess.transform(X_test)        # ← transform only
 
 | # | Plot | What it shows |
 |---|------|--------------|
-| 01 | Target Distribution | 69% approved — moderate class imbalance |
-| 02 | Categoricals vs Target | Credit history is the strongest categorical separator |
-| 03 | Numeric Distributions | Income skewness and outliers per class |
-| 04 | Correlation Heatmap | Feature-to-feature and feature-to-target correlations |
-| 05 | Model Comparison | CV vs validation accuracy + ROC-AUC across all 5 models |
-| 06 | Confusion Matrix + ROC | Best model performance breakdown |
-| 07 | Feature Importance | Random Forest importances — red = top quartile |
+| 01 | Categoricals vs Target | Credit history is the strongest categorical separator |
+| 02 | Numeric Distributions | Income skewness and outliers per class |
+| 03 | Correlation Heatmap | Feature-to-feature and feature-to-target correlations |
+| 04 | Model Comparison | CV vs validation accuracy + ROC-AUC across all 5 models |
+| 05 | Confusion Matrix + ROC | Best model performance breakdown |
+| 06 | Feature Importance | Random Forest importances — red = top quartile |
 
 ---
 
